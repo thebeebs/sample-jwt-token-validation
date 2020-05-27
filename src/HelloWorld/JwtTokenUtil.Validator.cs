@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 
 namespace HelloWorld
 {
+    
     public class JwtValidator
     {
         public static bool IsValid(string token, string userPoolId, string region = "eu-west-1")
