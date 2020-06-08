@@ -30,7 +30,6 @@ namespace HelloWorld
         public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent,
             ILambdaContext context)
         {
-
             var location = await GetCallingIP();
             var body = new Dictionary<string, string>
             {
